@@ -1,0 +1,108 @@
+*{
+    font-family: Arial;
+    background-color: rgb(125, 193, 233);
+}
+h1:first-letter{
+    font-size: 200%;
+}
+h1 {
+    font-family: Georgia;
+    font-size: 300%;
+    text-shadow: 2px 2px 3px #777777;
+    padding-block: 10px;
+    text-align: center;
+    word-spacing: 0.5em;
+    }
+.drone_img{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    margin: 1px;
+    border: 5px solid rgba(119, 113, 113, 0.5)
+}    
+.fig{
+    line-height: 0.8em;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Times;
+    color: hsl(0, 69%, 25%);
+}   
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: rgb(199, 129, 24);
+}
+h2+p{
+    text-align: justify;
+}
+h3 {
+    
+    background-color:rgb(205, 243, 69);
+    border: 2px solid white
+} 
+
+.rev {
+    border: 1.5px solid rgb(232, 235, 95);
+    padding: 2.5px;
+    background-color: hsla(0, 100%, 100%, 1);
+}
+
+h4{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(199, 129, 24);
+    background-color: hsla(0, 100%, 100%, 1);
+    text-shadow: 1px 1px 0px #000000;
+}
+
+h4+p {
+    font-family: comic sans MS;
+    color: hsl(125, 79%, 28%);
+    background-color: hsla(0, 100%, 100%, 1);
+}
+
+.icon_img{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+p[class="user"] {
+    color: gray;
+    background-color: hsla(0, 100%, 100%, 1);
+}
+
+h5 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:link {
+    color: rgba(241, 10, 60, 0.849);
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: darkblue;
+}
+
+a:hover {
+    color: wheat;
+}
+
+#click{
+    padding: 6px 12px 6px 12px;
+    border: 2px solid #665544;
+    color: #0e221b;
+    font-weight: bold;
+}
+#click:hover {
+    background-color: rgb(44, 5, 80);
+}
+
+
