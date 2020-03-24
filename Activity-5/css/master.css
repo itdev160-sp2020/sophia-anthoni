@@ -1,0 +1,58 @@
+*{
+    width: 100%;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+}
+
+#auth, #date{
+    font-family: fantasy;
+}
+.PackageInfo{
+    border: 1.5px solid rgb(232, 235, 95);
+    border-left: white;
+    background-color: hsla(0, 100%, 100%, 1);
+}
+a{
+    padding: 6px 12px 6px 12px; 
+    background-color: blue;   
+    color: whitesmoke;
+    font-weight: bold;
+    position: middle;
+    box-shadow: blue;
+}
+
+a:link {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: yellow
+}
+
+a:hover {
+    color: wheat;
+}
+
+#img{
+    border: 1px;
+    border-radius: 4px;
+    padding: 1px;
+    width: 500px;
+}
+
+#star{
+    width: 15px;
+    height: 13px;
+}
+
+#dload{
+    width: 17px;
+    height: 17px;
+}
