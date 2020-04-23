@@ -49,7 +49,7 @@ function addMessageHandler(event) {
     var messageInput = document.getElementById('message-input');     
     var messagesContainerEl= document.getElementById('message-container');
 
-switch (event.target.id) {
+switch(event.target.id) {
     case 'send-button':
         user = 'Sophia';
         type = messageType.send;
