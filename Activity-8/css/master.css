@@ -1,0 +1,70 @@
+
+body {
+    background: url(https://wishlovesmile.files.wordpress.com/2011/07/junablogback2.jpg); background-size: 100% 100%;  
+}
+
+h1{
+    margin-left: 37%;
+    display: flex;
+    padding: 5px;
+    color: brown;
+    background-color: none;
+    text-transform: uppercase;
+}
+
+header .header-menu {
+    margin-left: 48%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-center;
+    color: grey;
+    font-size: large;
+}
+
+main {
+    text-align: center;
+}
+
+main #display-content {
+    padding: 20px;
+}
+
+
+modal-backdrop.visible {
+    display: block;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border: solid 1px gray;
+    background-color: honeydew;
+    z-index: 99999;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal.visible {
+    display: block;
+}
+
+.modal-content {
+    width: 300px;
+    height: 300px;
+}
+
+#edit-content-text {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#edit-title{
+    width: 300px;
+    padding: 2px;
+}
+
