@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Activity 6</title>
+        <link rel = "stylesheet" type = "text/css" href = "https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel = "stylesheet" href = "css/master.css">
+    </head>
+
+    <body>
+
+    <div class="split left">
+    <div class="centered">
+    <div>
+        <header id="heading">
+            <h1>Quotes</h1>
+            <p>Click for an inspirational quote</p>
+    
+            <button class="onClick">New Quote</button>
+            <p id="quote"></p>
+            <p id="author"></p>  <br>
+    
+                    <h1 class="header-title">Enter your quote</h1>
+            <div class="header-menu">
+                <button id="new-button">Click Here</button>
+            </div>
+        
+        <section id ="display-content"></section>
+    
+    <div class="modal" id="modal-dialog">
+    
+        <section>
+            <h2>Author</h2>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </section>
+    
+        <section>
+            <h2>Quote</h2>
+            <textarea id="edit-content-text" cols="25" rows="20"></textarea>
+            <span id="edit-content-message"></span>
+        </section>
+            
+        <footer>
+            <button type="button" id="cancel-button">Cancel</button>
+            <button type="button" id="save-button">Save</button>
+        </footer>
+    </div>
+    
+    <div id="modal-backdrop"></div> 
+        
+            
+    </div>
+    </div>
+
+
+
+<div class="split right">
+    <div class="centered"> 
+        
+
+         <h1>My Grocery List</h1>
+            <section>         
+                <input type="text" id = "input-task"> <br /><br />
+                <button type="button" id = "add-task">Add to List</button>
+            </section>
+            <section id = "todo-list-container">
+                <ol id = "active-list"></ol>
+                <ul id = "completed-list"></ul>
+            </section>
+
+</div>
+    </div>
+        <script src = "js/scripts.js" charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    </body>   
+
+
+</html> 
